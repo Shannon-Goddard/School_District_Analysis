@@ -1,7 +1,7 @@
 # School_District_Analysis
 
 ## Project Overview
-The analysis of the school district:
+Here is a list of deliverables for the analysis of the school district:
 - A high-level snapshot of the district's key metrics, presented in a table format
 - An overview of the key metrics for each school, presented in a table format
 - Tables presenting each of the following metrics:
@@ -17,6 +17,7 @@ The analysis of the school district:
 - Software: Anaconda 4.7.12, Jupyter Notebook, Pandas, PythonData environment using Python 3.6
 
 ## Summary
+By the end of this module, we will be able to:
 - Open Jupyter Notebook files from local directories using a development environment.
 - Read an external CSV file into a DataFrame.
 - Format a DataFrame column.
