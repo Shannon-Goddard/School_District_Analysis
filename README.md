@@ -35,10 +35,10 @@ Maria and her supervisor have discovered that the score averages for ninth grade
 - Replace the incorrect values with NaN.
 - Explain how your PyCity Schools analysis changes after you handle the incorrect data.
 
-## Summary
+## Challenge Summary
 The analysis of the schools, after removing the reading and math scores, show that:
-- The district summary affected?
-- The school summary affeected?
+- The district summary is affected?
+- The school summary is affeected?
 - Removing the ninth graders' math and reading scores affect Thomas High School's performance?  realtive to the other schools
 - Removing the ninth-grade scores affect the Math and Reading Scores by:
   - Grade
