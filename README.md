@@ -53,12 +53,33 @@ The district summary is affected by replacing the reading and math scores for ni
 | Charter      | 1,635        | $1,043,130.00  | $638.00      | 83.42        | 83.90        | 93.27        | 97.31       | 95.29       |
 | Charter      | 1,635        | $1,043,130.00  | $638.00      | 82.35        | 83.85        | 66.91        | 69.66       | 68.29       |
 
-Thomas High School is the only school affected in the school summary. Removing the ninth graders' math and reading scores only affected Thomas High School by showing NaN replacing the incorrect data. The data relative in the other schools remained unchanged. The table above shows how Thomas High School was affected. The first row of data is from PyCitySchools.ipynb, before we replaced the incorrect values with NaN. The second row of data is from PyCitySchools_Challenge.ipynb, showing results from after replacing the incorrect values with NaN. The table shows the SchoolType, Total Students, Total School Budget, and Per Student Budget were unaffected. While the Average Math Score, Average Reading Score, % Passing Math, % Passing Reading, and % Overall Passing were affected.
+Thomas High School is the only school affected in the school summary. Removing the ninth graders' math and reading scores affected Thomas High School by showing NaN replacing the incorrect data. The data relative in the other schools remained unchanged. The table above shows how Thomas High School was affected. The first row of data is from PyCitySchools.ipynb, before we replaced the incorrect values with NaN. The second row of data is from PyCitySchools_Challenge.ipynb, showing results from after replacing the incorrect values with NaN. The table shows the SchoolType, Total Students, Total School Budget, and Per Student Budget were unaffected. While the Average Math Score, Average Reading Score, % Passing Math, % Passing Reading, and % Overall Passing were affected.
 
-- Removing the ninth-grade scores affect the Math and Reading Scores by:
-  - Grade
-  - Scores by School Spending
-  - Scores by School Size
-  - Scores by School Type
+Removing the ninth-grade scores affect the Math and Reading Scores by Grade by showing NaN on all the 9th graders from Thomas High School Math and Reading scores.
+
+### School Spending <br/>
+| Spending Range (per student)| Average Math Score | Average Reading Score| % Passing Math | % Passing Reading | % Overall Passing| 
+| -------------- |:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|--------------:|
+| $630-644       | 78.5           | 81.6           | 73             | 84             | 79             |
+| $630-644       | 78.5           | 81.6           | 67             | 77             | 72             |
+
+Removing the ninth-grade scores affect the Math and Reading Scores by School Spending in the $630-644 Spending Range (per student) bin, as shown in the table above. The first row of data is from PyCitySchools.ipynd, before we replaced the incorrect values with NaN. The second row of data is from PyCity Schools_Challenge.ipynb, after we replaced the incorrect values with NaN. The other School Spending bins were unaffected.
+
+### School Size <br/>
+| Medium (1000-2000)| Average Math Score | Average Reading Score| % Passing Math | % Passing Reading | % Overall Passing| 
+| -------------- |:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|--------------:|
+| $630-644       | 83.4           | 83.9           | 94             | 97             | 95             |
+| $630-644       | 83.4           | 83.9           | 88             | 91             | 90             |
+
+Removing the ninth-grade scores affect the Math and Reading Scores by School Size in the Medium (1000-2000) bin, as shown in the table above. The first row of data is from PyCitySchools.ipynd, before we replaced the incorrect values with NaN. The second row of data is from PyCity Schools_Challenge.ipynb, after we replaced the incorrect values with NaN. The other School Size bins were unaffected.
+
+### School Type <br/>
+| Type           | Average Math Score | Average Reading Score| % Passing Math | % Passing Reading | % Overall Passing| 
+| -------------- |:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|--------------:|
+| Charter        | 83.5           | 83.9           | 94             | 97             | 95            |
+| Charter        | 83.5           | 83.9           | 90             | 93             | 92            |
+
+Removing the ninth-grade scores affect the Math and Reading Scores by School Type in the Charter school data, as shown in the table above. The first row of data is from PyCitySchools.ipynd, before we replaced the incorrect values with NaN. The second row of data is from PyCity Schools_Challenge.ipynb, after we replaced the incorrect values with NaN. School type was either District or Charter. Thomas High School was a Charter school. Therefore, the District School Type data was unaffected.
 
 
+  
