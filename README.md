@@ -47,16 +47,14 @@ The analysis of the schools, after removing the reading and math scores, show th
 
 The district summary is affected by replacing the reading and math scores for ninth graders at Thomas High School with NaN as shown in the table above. The first row of data is from PyCitySchools.ipynb, before we replaced the incorrect values with NaN. The second row of data is from PyCitySchools_Challenge.ipynb. This row shows a 1% decrease in the % Passing Math, % Passing Reading, and % Overall Passing columns after replacing the incorrect values with NaN. It was odd that the Average Math and Reading Score was not affected. In the third row of data I allowed the scores to be rounded to the nearest hundredth, after we replaced the incorrect value with NaN. Allowing this shows that the Average Math and Reading Scores were affected. The Total Schools, Total Students, and Total Budget columns were not affected.
 
-Thomas High School is the only school affected in the school summary.
-
 ### Thomas High School <br/>
 | School Type    | Total Students | Total School Budget| Per Student Budget| Av Math Score| Av Reading Score | % Passing Math| % Passing Reading | % Overall Passing| 
 | ------------ |:------------:|:--------------:|:------------:|:------------:|:------------:|:------------:|:-----------:|------------:|
 | Charter      | 1,635        | $1,043,130.00  | $638.00      | 83.42        | 83.90        | 93.27        | 97.31       | 95.29       |
 | Charter      | 1,635        | $1,043,130.00  | $638.00      | 82.35        | 83.85        | 66.91        | 69.66       | 68.29       |
 
+Thomas High School is the only school affected in the school summary. Removing the ninth graders' math and reading scores only affected Thomas High School by showing NaN replacing the incorrect data. The data relative in the other schools remained unchanged. The table above shows how Thomas High School was affected. The first row of data is from PyCitySchools.ipynb, before we replaced the incorrect values with NaN. The second row of data is from PyCitySchools_Challenge.ipynb, showing results from after replacing the incorrect values with NaN. The table shows the SchoolType, Total Students, Total School Budget, and Per Student Budget were unaffected. While the Average Math Score, Average Reading Score, % Passing Math, % Passing Reading, and % Overall Passing were affected.
 
-Removing the ninth graders' math and reading scores only affects Thomas High School by showing NaN 
 - Removing the ninth-grade scores affect the Math and Reading Scores by:
   - Grade
   - Scores by School Spending
