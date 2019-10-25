@@ -39,7 +39,7 @@ Maria and her supervisor have discovered that the score averages for ninth grade
 The analysis of the schools, after removing the reading and math scores, show that:
 
 ### District Summary <br/>
-| Total Schools  | Total Students | Total Budget   | Av Math Score | Av Reading Score| % Passing Math | % Passing Read | % Overall Pass| 
+| Total Schools  | Total Students | Total Budget   | Av Math Score | Av Reading Score| % Passing Math | % Passing Reading | % Overall Passing| 
 | -------------- |:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|--------------:|
 | 15             | 39,170         | $24,649,428.00 | 79             | 82             | 75             | 86             | 80            |
 | 15             | 39,170         | $24,649,428.00 | 79             | 82             | 74             | 85             | 79            |
@@ -50,11 +50,11 @@ The district summary is affected by replacing the reading and math scores for ni
 Thomas High School is the only school affected in the school summary.
 
 ### Thomas High School <br/>
-| School Type    | Total Students | Total School Budget| Per Student Budget| Av Math Score| Av Reading Score | % Passing Read | % Overall Pass| 
-| -------------- |:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|--------------:|
-| 15             | 39,170         | $24,649,428.00 | 79             | 82             | 75             | 86             | 80            |
-| 15             | 39,170         | $24,649,428.00 | 79             | 82             | 74             | 85             | 79            |
-| 15             | 39,170         | $24,649,428.00 | 78.93          | 81.86          | 73.88          | 84.65          | 79.27         |
+| School Type    | Total Students | Total School Budget| Per Student Budget| Av Math Score| Av Reading Score | % Passing Math| % Passing Reading | % Overall Passing| 
+| ------------ |:------------:|:--------------:|:------------:|:------------:|:------------:|:------------:|:-----------:|------------:|
+| Charter      | 1,635        | $1,043,130.00  | $638.00      | 83.42        | 83.90        | 93.27        | 97.31       | 95.29       |
+| Charter      | 1,635        | $1,043,130.00  | $638.00      | 82.35        | 83.85        | 66.91        | 69.66       | 68.29       |
+
 
 Removing the ninth graders' math and reading scores only affects Thomas High School by showing NaN 
 - Removing the ninth-grade scores affect the Math and Reading Scores by:
