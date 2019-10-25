@@ -75,9 +75,9 @@ Removing the ninth-grade scores affect the Math and Reading Scores by School Siz
 
 ### School Type <br/>
 | Type            | Average Math Score | Average Reading Score| % Passing Math | % Passing Reading | % Overall Passing | 
-| -------------- |:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|--------------:|
-| Charter        | 83.5           | 83.9           | 94             | 97             | 95            |
-| Charter        | 83.5           | 83.9           | 90             | 93             | 92            |
+| --------------  |:--------------:|:--------------: |:--------------:|:--------------: |:--------------:|:--------------: |--------------:|
+| Charter         | 83.5           | 83.9            | 94             | 97              | 95             |
+| Charter         | 83.5           | 83.9            | 90             | 93              | 92             |
 
 Removing the ninth-grade scores affect the Math and Reading Scores by School Type in the Charter school data, as shown in the table above. The first row of data is from PyCitySchools.ipynd, before we replaced the incorrect values with NaN. The second row of data is from PyCity Schools_Challenge.ipynb, after we replaced the incorrect values with NaN. School type was either District or Charter. Thomas High School was a Charter school. Therefore, the District School Type data was unaffected.
 
