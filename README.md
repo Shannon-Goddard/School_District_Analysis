@@ -38,14 +38,14 @@ Maria and her supervisor have discovered that the score averages for ninth grade
 ## Challenge Summary
 The analysis of the schools, after removing the reading and math scores, show that:
 
-# District Summary <br/>
+### District Summary <br/>
 | Total Schools  | Total Students | Total Budget   | Av Math Score | Av Reading Score| % Passing Math | % Passing Read | % Overall Pass| 
 | -------------- |:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|--------------:|
 | 15             | 39,170         | $24,649,428.00 | 79             | 82             | 75             | 86             | 80            |
 | 15             | 39,170         | $24,649,428.00 | 79             | 82             | 74             | 85             | 79            |
 | 15             | 39,170         | $24,649,428.00 | 78.93          | 81.86          | 73.88          | 84.65          | 79.27         |
 
-The district summary is affected?
+The district summary is affected by replacing the reading and math scores for ninth graders at Thomas High School with NaN as shown in the table above. The first row of data is from PyCitySchools.ipynb, before we replaced the incorrect values with NaN. The second row of data is from PyCitySchools_Challenge.ipynb, in which, shows a 1% decrease in the % Passing Math, % Passing Reading, and % Overall Passing columns after replacing the incorrect values with NaN. I figured it was odd that the Average Math and Reading Score was not affected. In the third row of data I allowed the scores to be rounded to the nearest hundredth after we replaced the incorrect value with NaN. Allowing this shows that the Average Math and Reading Scores were affected. The Total Schools, Total Students, and Total Budget columns were not affected.
 
 
 - The school summary is affeected?
