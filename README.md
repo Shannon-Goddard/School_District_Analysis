@@ -38,7 +38,7 @@ Maria and her supervisor have discovered that the score averages for ninth grade
 ## Challenge Summary
 The analysis of the schools, after removing the reading and math scores, show that:
 
-#District Summary
+# District Summary <br/>
 | Total Schools  | Total Students | Total Budget   | Av Math Score | Av Reading Score| % Passing Math | % Passing Read | % Overall Pass| 
 | -------------- |:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|--------------:|
 | 15             | 39,170         | $24,649,428.00 | 79             | 82             | 75             | 86             | 80            |
