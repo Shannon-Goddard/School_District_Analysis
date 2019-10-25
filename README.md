@@ -45,11 +45,18 @@ The analysis of the schools, after removing the reading and math scores, show th
 | 15             | 39,170         | $24,649,428.00 | 79             | 82             | 74             | 85             | 79            |
 | 15             | 39,170         | $24,649,428.00 | 78.93          | 81.86          | 73.88          | 84.65          | 79.27         |
 
-The district summary is affected by replacing the reading and math scores for ninth graders at Thomas High School with NaN as shown in the table above. The first row of data is from PyCitySchools.ipynb, before we replaced the incorrect values with NaN. The second row of data is from PyCitySchools_Challenge.ipynb, in which, shows a 1% decrease in the % Passing Math, % Passing Reading, and % Overall Passing columns after replacing the incorrect values with NaN. I figured it was odd that the Average Math and Reading Score was not affected. In the third row of data I allowed the scores to be rounded to the nearest hundredth after we replaced the incorrect value with NaN. Allowing this shows that the Average Math and Reading Scores were affected. The Total Schools, Total Students, and Total Budget columns were not affected.
+The district summary is affected by replacing the reading and math scores for ninth graders at Thomas High School with NaN as shown in the table above. The first row of data is from PyCitySchools.ipynb, before we replaced the incorrect values with NaN. The second row of data is from PyCitySchools_Challenge.ipynb. This row shows a 1% decrease in the % Passing Math, % Passing Reading, and % Overall Passing columns after replacing the incorrect values with NaN. It was odd that the Average Math and Reading Score was not affected. In the third row of data I allowed the scores to be rounded to the nearest hundredth, after we replaced the incorrect value with NaN. Allowing this shows that the Average Math and Reading Scores were affected. The Total Schools, Total Students, and Total Budget columns were not affected.
 
+Thomas High School is the only school affected in the school summary.
 
-- The school summary is affeected?
-- Removing the ninth graders' math and reading scores affect Thomas High School's performance?  realtive to the other schools
+### Thomas High School <br/>
+| School Type    | Total Students | Total School Budget| Per Student Budget| Av Math Score| Av Reading Score | % Passing Read | % Overall Pass| 
+| -------------- |:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|--------------:|
+| 15             | 39,170         | $24,649,428.00 | 79             | 82             | 75             | 86             | 80            |
+| 15             | 39,170         | $24,649,428.00 | 79             | 82             | 74             | 85             | 79            |
+| 15             | 39,170         | $24,649,428.00 | 78.93          | 81.86          | 73.88          | 84.65          | 79.27         |
+
+Removing the ninth graders' math and reading scores only affects Thomas High School by showing NaN 
 - Removing the ninth-grade scores affect the Math and Reading Scores by:
   - Grade
   - Scores by School Spending
