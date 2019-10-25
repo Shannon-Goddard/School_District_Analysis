@@ -37,7 +37,17 @@ Maria and her supervisor have discovered that the score averages for ninth grade
 
 ## Challenge Summary
 The analysis of the schools, after removing the reading and math scores, show that:
-- The district summary is affected?
+
+#District Summary
+| Total Schools  | Total Students | Total Budget   | Av Math Score | Av Reading Score| % Passing Math | % Passing Read | % Overall Pass| 
+| -------------- |:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|--------------:|
+| 15             | 39,170         | $24,649,428.00 | 79             | 82             | 75             | 86             | 80            |
+| 15             | 39,170         | $24,649,428.00 | 79             | 82             | 74             | 85             | 79            |
+| 15             | 39,170         | $24,649,428.00 | 78.93          | 81.86          | 73.88          | 84.65          | 79.27         |
+
+The district summary is affected?
+
+
 - The school summary is affeected?
 - Removing the ninth graders' math and reading scores affect Thomas High School's performance?  realtive to the other schools
 - Removing the ninth-grade scores affect the Math and Reading Scores by:
