@@ -58,23 +58,23 @@ Thomas High School is the only school affected in the school summary. Removing t
 Removing the ninth grade scores does not affect the Math and Reading Scores by Grade. The scores for Thomas High School ninth graders shows NaN. The remaining Grade Scores are unaffected.
 
 ### School Spending <br/>
-| Spending Range (per student)| Average Math Score | Average Reading Score| % Passing Math | % Passing Reading | % Overall Passing| 
-| -------------- |:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|--------------:|
+| Spending Range (per student) | Average Math Score  | Average Reading Score  | % Passing Math | % Passing Reading | % Overall Passing | 
+| --------------  |:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|--------------:|
 | $630-644       | 78.5           | 81.6           | 73             | 84             | 79             |
 | $630-644       | 78.5           | 81.6           | 67             | 77             | 72             |
 
 Removing the ninth-grade scores affect the Math and Reading Scores by School Spending in the $630-644 Spending Range (per student) bin, as shown in the table above. The first row of data is from PyCitySchools.ipynd, before we replaced the incorrect values with NaN. The second row of data is from PyCity Schools_Challenge.ipynb, after we replaced the incorrect values with NaN. The other School Spending bins were unaffected.
 
 ### School Size <br/>
-| Medium (1000-2000)| Average Math Score | Average Reading Score| % Passing Math | % Passing Reading | % Overall Passing| 
-| -------------- |:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|--------------:|
+| Medium (1000-2000)| Average Math Score | Average Reading Score | % Passing Math  | % Passing Reading | % Overall Passing | 
+| --------------  |:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|--------------:|
 | $630-644       | 83.4           | 83.9           | 94             | 97             | 95             |
 | $630-644       | 83.4           | 83.9           | 88             | 91             | 90             |
 
 Removing the ninth-grade scores affect the Math and Reading Scores by School Size in the Medium (1000-2000) bin, as shown in the table above. The first row of data is from PyCitySchools.ipynd, before we replaced the incorrect values with NaN. The second row of data is from PyCity Schools_Challenge.ipynb, after we replaced the incorrect values with NaN. The other School Size bins were unaffected.
 
 ### School Type <br/>
-| Type           | Average Math Score | Average Reading Score| % Passing Math | % Passing Reading | % Overall Passing| 
+| Type            | Average Math Score | Average Reading Score| % Passing Math | % Passing Reading | % Overall Passing | 
 | -------------- |:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|:--------------:|--------------:|
 | Charter        | 83.5           | 83.9           | 94             | 97             | 95            |
 | Charter        | 83.5           | 83.9           | 90             | 93             | 92            |
